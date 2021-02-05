@@ -200,7 +200,7 @@ elif config.ENV == "PROD":
     def webhook():
         bot.remove_webhook()
         bot.set_webhook(url='https://todoreminderbot.herokuapp.com/' + config.telegram_key)
-        return 'Chat with the Bot  <a href ="https://t.me/DatesReminderBot">here</a> \
+        return 'Chat with the Bot  <a href ="http://t.me/RemindMeToDo_Bot">here</a> \
           or   Check the project code <a href ="https://github.com/gustavoerivero/To-Do-Reminder-Bot-_-Telegram>here</a>', 200
 
 
